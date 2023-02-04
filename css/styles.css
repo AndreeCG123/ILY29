@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Open+Sans:wght@400;500;600&display=swap');
 body{
     margin: 0;
     background-color: black;
@@ -12,10 +13,8 @@ body{
     z-index: 0;
 }
 .img{
-    width: 100px;
-}
-.img2{
-    width: 200px;
+    width: 20%;
+    height: 16.6%;
 }
 .frase{
     font-size: 50px;
@@ -71,7 +70,10 @@ body{
     right: 0;
     bottom: 0;
     left: 0;
+    padding: 5px;
+    margin: 0;
 }
+
 
 .imgs{
     width: 300px;
@@ -82,4 +84,13 @@ body{
     .d-md-block {
         display: block!important;
     }
+}
+.tittle, .floro{
+    font-family: Itim;
+}
+#first{
+    border-radius: 10px;
+}
+.tittle{
+    font-size: 30px;
 }
